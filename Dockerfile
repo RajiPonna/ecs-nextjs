@@ -1,4 +1,4 @@
-FROM node:10.16-alpine
+FROM node:14.15-alpine
 
 # Tools required to run
 RUN apk add --no-cache curl tini
